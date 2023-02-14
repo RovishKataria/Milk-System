@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectUserActivity">
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/milk"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".27"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0" />
+
+    <TextView
+        android:id="@+id/txtViewSelectUserType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a user type"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="@color/blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgView"
+        app:layout_constraintVertical_bias="0"/>
+
+    <Button
+        android:id="@+id/btnMilkSeller"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/blue"
+        android:text="Milk Seller"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewSelectUserType"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent=".6" />
+
+    <Button
+        android:id="@+id/btnCustomer"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/blue"
+        android:text="Customer"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMilkSeller"
+        app:layout_constraintVertical_bias=".1"
+        app:layout_constraintWidth_percent=".6" />
+
+    <Button
+        android:id="@+id/btnDeliveryAgent"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/blue"
+        android:text="Delivery Agent"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCustomer"
+        app:layout_constraintVertical_bias=".1"
+        app:layout_constraintWidth_percent=".6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

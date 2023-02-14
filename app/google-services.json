@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "704759149541",
+    "project_id": "milk-distribution-management",
+    "storage_bucket": "milk-distribution-management.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704759149541:android:7fb409e3957c36aa18350c",
+        "android_client_info": {
+          "package_name": "com.example.milkdistributionmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704759149541-ptul9f51l74jvtn4mfstngsteui4ebu9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDunkN3ZWSNLh88_fdNxciv3-kG8GKhG3Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704759149541-ptul9f51l74jvtn4mfstngsteui4ebu9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
